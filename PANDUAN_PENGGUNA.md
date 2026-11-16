@@ -1,7 +1,7 @@
-# BodeStudio Pro 3.0 — Panduan Pengguna Resmi & Quick-Start Guide
+# BodeStudio Pro 3.1 — Panduan Pengguna Resmi & Quick-Start Guide
 ### *Universal YouTube Ambience Video Automation Engine*
 
-Selamat datang di **BodeStudio Pro 3.0**! Software ini dirancang khusus untuk kreator konten YouTube, produser musik lofi/ambience, dan pemilik agensi video automation yang ingin memproduksi video ambience berdurasi panjang (1 hingga 3+ jam) berkualitas broadcast dengan efisiensi maksimal dan proteksi monetisasi terbaik.
+Selamat datang di **BodeStudio Pro 3.1**! Software ini dirancang khusus untuk kreator konten YouTube, produser musik lofi/ambience, dan pemilik agensi video automation yang ingin memproduksi video ambience berdurasi panjang (1 hingga 3+ jam) berkualitas broadcast dengan efisiensi maksimal dan proteksi monetisasi terbaik.
 
 ---
 
@@ -31,7 +31,7 @@ Selamat datang di **BodeStudio Pro 3.0**! Software ini dirancang khusus untuk kr
 * **Penyimpanan**: Ruang kosong minimal 1 GB untuk instalasi dan ruang kerja video.
 
 ### 1.2. Langkah-Langkah Instalasi
-1. Unduh installer resmi: `BodeStudioPro_v3.0_Setup.exe`.
+1. Unduh installer resmi: `BodeStudioPro_v3.1.1_Setup.exe`.
 2. Klik dua kali pada file installer untuk memulai wizard pemasangan.
 3. **Catatan Windows SmartScreen**:
    Jika muncul jendela biru *"Windows protected your PC"* (hal yang wajar pada software independen baru):
@@ -232,7 +232,7 @@ BodeStudio Pro dilengkapi dengan fitur pembaruan otomatis di dalam aplikasi (*In
 ### PUSAT DUKUNGAN & INFORMASI KOMERSIAL
 
 * **Portal Rilis & Unduhan**: [https://github.com/BodeTAP/bodestudio-releases](https://github.com/BodeTAP/bodestudio-releases)
-* **Kompilasi Versi**: BodeStudio Pro 3.0 (Official Flame Orange Workstation)
+* **Kompilasi Versi**: BodeStudio Pro 3.1.1 (Official Flame Orange Workstation)
 * **Pengembang**: BodeStudio Engineering Team
 
 *Selamat berkarya dan sukses membangun jaringan channel YouTube Ambience Anda!*

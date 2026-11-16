@@ -1,7 +1,7 @@
-# BodeStudio Pro 3.0 — Official User Manual & Quick-Start Guide
+# BodeStudio Pro 3.1 — Official User Manual & Quick-Start Guide
 ### *Universal YouTube Ambience Video Automation Engine*
 
-Welcome to **BodeStudio Pro 3.0**! This software is engineered specifically for YouTube creators, lofi/ambience music producers, and automated video agency owners looking to produce long-form broadcast-quality ambience videos (1 to 3+ hours) with maximum rendering throughput and monetization protection.
+Welcome to **BodeStudio Pro 3.1**! This software is engineered specifically for YouTube creators, lofi/ambience music producers, and automated video agency owners looking to produce long-form broadcast-quality ambience videos (1 to 3+ hours) with maximum rendering throughput and monetization protection.
 
 ---
 
@@ -31,7 +31,7 @@ Welcome to **BodeStudio Pro 3.0**! This software is engineered specifically for 
 * **Storage**: At least 1 GB free disk space for application runtime.
 
 ### 1.2. Installation Steps
-1. Download the official setup installer: `BodeStudioPro_v3.0_Setup.exe`.
+1. Download the official setup installer: `BodeStudioPro_v3.1.1_Setup.exe`.
 2. Double-click the installer to launch the Inno Setup wizard.
 3. **Windows Defender SmartScreen Note**:
    If the blue *"Windows protected your PC"* banner appears (standard for newly released independent software):
