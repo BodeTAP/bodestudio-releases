@@ -10,7 +10,7 @@
     "In-App Auto-Updater with real-time download and seamless in-place upgrade"
   ],
   "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.0/BodeStudioPro_v3.1.0_Setup.exe",
-  "file_size_mb": 118.22,
+  "file_size_mb": 118.23,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
 }
