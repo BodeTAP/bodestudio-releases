@@ -14,6 +14,13 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 ---
 
+## 📖 Official Documentation & User Guides
+
+- 🇮🇩 **[Panduan Pengguna Lengkap (Bahasa Indonesia)](PANDUAN_PENGGUNA.md)**: Panduan instalasi, aktivasi lisensi, alur kerja pembuatan video ambience, setup YouTube OAuth, dan troubleshooting.
+- 🇬🇧 **[Official User Manual & Quick-Start Guide (English)](USER_MANUAL.md)**: Full guide for international agency clients and individual creators.
+
+---
+
 ## ⚡ Core Capabilities
 
 - **100% Forward Seamless Crossfade Loop**: Industrial forward-only crossfade dissolve algorithm. Zero reverse / ping-pong playback.
