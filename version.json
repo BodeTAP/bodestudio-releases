@@ -5,10 +5,11 @@
     "Official Inno Setup Windows Installer Pipeline (Single .exe Setup)",
     "Official Flame Orange Studio branding and multi-resolution .ico bundle",
     "Container-aware responsive preview player layout for narrow window resizing",
-    "In-App Auto-Updater with real-time download and seamless in-place upgrade"
+    "In-App Auto-Updater with real-time download and seamless in-place upgrade",
+    "Batch Multi-Channel Render Queue (Autopilot Semalam Suntuk with Windows Anti-Sleep)"
   ],
   "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/latest/download/BodeStudioPro_v3.0_Setup.exe",
-  "file_size_mb": 118.12,
+  "file_size_mb": 118.13,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
 }
