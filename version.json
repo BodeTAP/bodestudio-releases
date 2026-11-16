@@ -1,15 +1,14 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "release_date": "2026-11-17",
   "changelog": [
-    "Batch Multi-Channel Render Queue (Autopilot Semalam Suntuk)",
-    "Windows Anti-Sleep Power Management & Away Mode",
-    "Post-Queue Automated Actions (Shutdown, Sleep, Hibernate)",
-    "Official Flame Orange Studio branding and multi-resolution .ico bundle",
-    "Container-aware responsive preview player layout for narrow window resizing",
-    "In-App Auto-Updater with real-time download and seamless in-place upgrade"
+    "Fix: Eliminasi kebuntuan buffer pipa (OS Pipe Deadlock) pada render Forward Loop",
+    "Fix: Penghentian instan subproses FFmpeg (<100ms) saat tombol Batalkan diklik",
+    "Fix: Kontrak tuple render engine untuk mencegah crash thread latar belakang",
+    "Fix: Reset instan status render dan tombol aksi di antarmuka pengguna",
+    "Update: Indikator tombol Batalkan menampilkan status Membatalkan... dan proteksi anti-spam"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.0/BodeStudioPro_v3.1.0_Setup.exe",
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.1/BodeStudioPro_v3.1.1_Setup.exe",
   "file_size_mb": 118.23,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
