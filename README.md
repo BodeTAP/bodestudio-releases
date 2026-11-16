@@ -10,7 +10,7 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 | Release Version | Target Platform | Architecture | Installer Size | Direct Download | Release Notes |
 |---|---|---|---|---|---|
-| **v3.1.1 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 118.23 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.1/BodeStudioPro_v3.1.1_Setup.exe) | [Changelog v3.1.1](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.1.1) |
+| **v3.1.2 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 118.23 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.2/BodeStudioPro_v3.1.1_Setup.exe) | [Changelog v3.1.2](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.1.2) |
 
 ---
 
@@ -44,7 +44,14 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 ## 📜 Release Notes
 
-### v3.1.1 (Latest Patch)
+### v3.1.2 (Latest Patch)
+- **Automatic Disk Cache Pruning**: Intermediate video loops and concat lists in `.cache` are automatically deleted upon video completion or cancellation. Added manual `clean_disk_cache` utility.
+- **Admin Keygen CLI Utility**: Official isolated CLI tool (`admin_keygen.py`) for the software owner to instantly generate and verify customer offline licenses (`--hwid`, `--tier`, `--name`).
+- **Resilient YouTube API Uploader**: Added pre-flight token refresh buffer and clear human-readable diagnostics for Daily Quota Limits (10,000 units/day) and upload channel restrictions.
+- **Cancelable Shorts 9:16 Generator**: Upgraded vertical teaser generator with non-blocking subprocess loop and instant process tree kill (<100ms) on cancel.
+- **Workstation UI Version Sync**: Dynamic Header badge and IPC telemetry updated to v3.1.2.
+
+### v3.1.1
 - **Eliminated OS Pipe Buffer Deadlock**: Resolved render freeze at 0% during forward loop creation by switching to non-blocking pipe buffer draining (`communicate` with timeout).
 - **Instant Render Cancelation**: Aborting active renders terminates the complete FFmpeg process tree in <100ms (`taskkill /F /T /PID`).
 - **Worker Thread Return Contract Safety**: Guarded all exception and cancellation handlers against `TypeError` unpacking crashes.
