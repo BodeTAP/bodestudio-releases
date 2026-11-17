@@ -1,7 +1,8 @@
 {
-  "version": "3.2.0",
+  "version": "3.2.1",
   "release_date": "2026-11-17",
   "changelog": [
+    "Hotfix: Relokasi live stream cache dan presets ke %APPDATA% untuk mencegah PermissionError WinError 5 di Program Files",
     "Fitur: Audio Visualizer Overlay (Waveform & Spectrum bars) terintegrasi pada kanvas render video",
     "Keamanan: Kriptografi Asimetris Ed25519 (Fase 1) — 100% kebal universal keygen offline",
     "Keamanan: Penegakan ketat Mode Trial (Kunci resolusi 720p HD, Ultra Hemat, maks 2 antrean, watermark resmi)",
@@ -9,7 +10,7 @@
     "Layanan: Portal Pindah Perangkat Mandiri (Fase 3) via OTP Email 2FA dengan Fair Usage Rate-Limit",
     "UI: Header responsif adaptif pada seluruh ukuran jendela desktop"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.2.0/BodeStudioPro_v3.2.0_Setup.exe",
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.2.1/BodeStudioPro_v3.2.1_Setup.exe",
   "file_size_mb": 120.4,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
