@@ -2,14 +2,15 @@
   "version": "3.2.0",
   "release_date": "2026-11-17",
   "changelog": [
-    "Fitur: Auto-cleanup file temporary (.cache) otomatis membersihkan potongan loop dan concat setelah render selesai",
-    "Fitur: Admin Keygen CLI & Generator resmi untuk penerbitan lisensi pembeli offline (Personal & Agency)",
-    "Update: Hardening YouTube Uploader dengan diagnostik kuota harian (10.000 unit) dan pre-flight token refresh",
-    "Update: Shorts 9:16 Visual Crop Engine mendukung pembatalan instan (<100ms) tanpa proses zombie",
-    "UI: Badge versi dinamis v3.1.2 dan sinkronisasi status workstation"
+    "Fitur: Audio Visualizer Overlay (Waveform & Spectrum bars) terintegrasi pada kanvas render video",
+    "Keamanan: Kriptografi Asimetris Ed25519 (Fase 1) — 100% kebal universal keygen offline",
+    "Keamanan: Penegakan ketat Mode Trial (Kunci resolusi 720p HD, Ultra Hemat, maks 2 antrean, watermark resmi)",
+    "Otomasi: Autopilot Webhook Licensing Server (Fase 2) untuk Mayar.id, Midtrans, dan Lynk.id dengan portal klaim HWID mandiri",
+    "Layanan: Portal Pindah Perangkat Mandiri (Fase 3) via OTP Email 2FA dengan Fair Usage Rate-Limit",
+    "UI: Header responsif adaptif pada seluruh ukuran jendela desktop"
   ],
   "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.2.0/BodeStudioPro_v3.2.0_Setup.exe",
-  "file_size_mb": 118.2,
+  "file_size_mb": 120.4,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
 }
