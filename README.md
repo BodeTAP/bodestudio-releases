@@ -10,7 +10,7 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 | Release Version | Target Platform | Architecture | Installer Size | Direct Download | Release Notes |
 |---|---|---|---|---|---|
-| **v3.1.2 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 118.23 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.2/BodeStudioPro_v3.1.1_Setup.exe) | [Changelog v3.1.2](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.1.2) |
+| **v3.2.0 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 118.23 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.2.0/BodeStudioPro_v3.1.1_Setup.exe) | [Changelog v3.2.0](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.2.0) |
 
 ---
 

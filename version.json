@@ -1,5 +1,5 @@
 {
-  "version": "3.1.2",
+  "version": "3.2.0",
   "release_date": "2026-11-17",
   "changelog": [
     "Fitur: Auto-cleanup file temporary (.cache) otomatis membersihkan potongan loop dan concat setelah render selesai",
@@ -8,7 +8,7 @@
     "Update: Shorts 9:16 Visual Crop Engine mendukung pembatalan instan (<100ms) tanpa proses zombie",
     "UI: Badge versi dinamis v3.1.2 dan sinkronisasi status workstation"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.1.2/BodeStudioPro_v3.1.2_Setup.exe",
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.2.0/BodeStudioPro_v3.2.0_Setup.exe",
   "file_size_mb": 118.2,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
