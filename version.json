@@ -1,16 +1,13 @@
 {
-  "version": "3.2.1",
-  "release_date": "2026-11-17",
+  "version": "3.3.0",
+  "release_date": "2026-11-18",
   "changelog": [
-    "Hotfix: Relokasi live stream cache dan presets ke %APPDATA% untuk mencegah PermissionError WinError 5 di Program Files",
-    "Fitur: Audio Visualizer Overlay (Waveform & Spectrum bars) terintegrasi pada kanvas render video",
-    "Keamanan: Kriptografi Asimetris Ed25519 (Fase 1) — 100% kebal universal keygen offline",
-    "Keamanan: Penegakan ketat Mode Trial (Kunci resolusi 720p HD, Ultra Hemat, maks 2 antrean, watermark resmi)",
-    "Otomasi: Autopilot Webhook Licensing Server (Fase 2) untuk Mayar.id, Midtrans, dan Lynk.id dengan portal klaim HWID mandiri",
-    "Layanan: Portal Pindah Perangkat Mandiri (Fase 3) via OTP Email 2FA dengan Fair Usage Rate-Limit",
-    "UI: Header responsif adaptif pada seluruh ukuran jendela desktop"
+    "Fitur Baru: Konektor opsional BodeStudio Office Sync (non-blocking) untuk sinkronisasi otomatis jadwal upload ke dashboard operasional agensi",
+    "UI: Tombol dan modal konfigurasi Office Sync terintegrasi di dialog YouTube Auto-Upload lengkap dengan tombol Test Connection",
+    "Lisensi & Server: Owner Licensing Console Web UI (/admin) dan stack Docker VPS terisolasi untuk penerbitan Ed25519 otomatis",
+    "Stabilitas: Penutupan koneksi database SQLite WAL dan perlindungan permission penuh untuk instalasi standar di Program Files"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.2.1/BodeStudioPro_v3.2.1_Setup.exe",
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.3.0/BodeStudioPro_v3.3.0_Setup.exe",
   "file_size_mb": 120.4,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
