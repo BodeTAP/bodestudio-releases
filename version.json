@@ -1,13 +1,13 @@
 {
-  "version": "3.3.0",
+  "version": "3.3.1",
   "release_date": "2026-11-18",
   "changelog": [
-    "Fitur Baru: Konektor opsional BodeStudio Office Sync (non-blocking) untuk sinkronisasi otomatis jadwal upload ke dashboard operasional agensi",
-    "UI: Tombol dan modal konfigurasi Office Sync terintegrasi di dialog YouTube Auto-Upload lengkap dengan tombol Test Connection",
-    "Lisensi & Server: Owner Licensing Console Web UI (/admin) dan stack Docker VPS terisolasi untuk penerbitan Ed25519 otomatis",
-    "Stabilitas: Penutupan koneksi database SQLite WAL dan perlindungan permission penuh untuk instalasi standar di Program Files"
+    "Lisensi & Konversi: Penambahan tombol langsung Beli Lisensi Personal dan bantuan Agency/WA pada dialog Lisensi Perangkat untuk pengguna Mode Trial",
+    "Pindah Perangkat: Akses cepat Portal Pindah Perangkat mandiri langsung dari dialog Lisensi bagi pengguna berlisensi aktif (Personal/Agency)",
+    "Keamanan: Validasi ketat skema URL (HTTP/HTTPS) pada bridge pembuka tautan eksternal aplikasi desktop",
+    "Arsitektur: Pemisahan penuh server lisensi ke repositori mandiri untuk kebersihan paket rilis desktop"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.3.0/BodeStudioPro_v3.3.0_Setup.exe",
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.3.1/BodeStudioPro_v3.3.1_Setup.exe",
   "file_size_mb": 120.4,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
