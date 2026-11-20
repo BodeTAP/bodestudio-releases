@@ -10,7 +10,7 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 | Release Version | Target Platform | Architecture | Installer Size | Direct Download | Release Notes |
 |---|---|---|---|---|---|
-| **v3.3.1 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 118.23 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.3.1/BodeStudioPro_v3.1.1_Setup.exe) | [Changelog v3.3.1](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.3.1) |
+| **v3.4.0 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 120.46 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.4.0/BodeStudioPro_v3.4.0_Setup.exe) | [Changelog v3.4.0](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.4.0) |
 
 ---
 
@@ -44,7 +44,15 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 ## 📜 Release Notes
 
-### v3.1.2 (Latest Patch)
+### v3.4.0 (Latest Release)
+- **Loop Transition Engine & Direct Cut**: Full suite of forward loop transitions including smooth linear alpha crossfade, fade through black, fade through white, wipe left/right, slide up/down, smooth left/right, and direct cut passthrough.
+- **GPU-Accelerated Instant Loop Preview**: Sub-second preview generation engine utilizing GPU acceleration and 720p draft Lanczos scaling, allowing creators to inspect seam smoothness in real time.
+- **Real-Time Storage Estimator**: Pre-render disk capacity calculator estimating output gigabytes across batch queues based on target duration, bitrate quality presets, and target resolution.
+- **Corrupt Render Output Auto-Cleaner**: Automated validation and recovery utility identifying and deleting damaged or truncated MP4 files resulting from disk-full errors, recovering space without breaking queues.
+- **Zero Noise Crossfade Blend**: True linear alpha mixing replacing legacy binary threshold dithering, eliminating 100% of particle noise dots on moving elements (steam, rain, embers, smoke).
+- **Unified Reactive Invalidation**: Fully reactive state synchronization ensuring zero stale preview playback across video queue switching, preset switching, cropping, and watermark adjustments.
+
+### v3.3.1
 - **Automatic Disk Cache Pruning**: Intermediate video loops and concat lists in `.cache` are automatically deleted upon video completion or cancellation. Added manual `clean_disk_cache` utility.
 - **Admin Keygen CLI Utility**: Official isolated CLI tool (`admin_keygen.py`) for the software owner to instantly generate and verify customer offline licenses (`--hwid`, `--tier`, `--name`).
 - **Resilient YouTube API Uploader**: Added pre-flight token refresh buffer and clear human-readable diagnostics for Daily Quota Limits (10,000 units/day) and upload channel restrictions.

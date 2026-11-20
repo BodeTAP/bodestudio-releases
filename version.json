@@ -1,14 +1,16 @@
 {
-  "version": "3.3.1",
-  "release_date": "2026-11-18",
+  "version": "3.4.0",
+  "release_date": "2026-11-20",
   "changelog": [
-    "Lisensi & Konversi: Penambahan tombol langsung Beli Lisensi Personal dan bantuan Agency/WA pada dialog Lisensi Perangkat untuk pengguna Mode Trial",
-    "Pindah Perangkat: Akses cepat Portal Pindah Perangkat mandiri langsung dari dialog Lisensi bagi pengguna berlisensi aktif (Personal/Agency)",
-    "Keamanan: Validasi ketat skema URL (HTTP/HTTPS) pada bridge pembuka tautan eksternal aplikasi desktop",
-    "Arsitektur: Pemisahan penuh server lisensi ke repositori mandiri untuk kebersihan paket rilis desktop"
+    "Transisi Looping: Pilihan lengkap efek transisi video (Crossfade linear mulus, Gelap, Kilau, Wipe, Slide, Smooth, serta Direct Cut passthrough)",
+    "Pratinjau Instan: Instant Loop Preview Engine bertenaga GPU (<1 detik) untuk menguji sambungan video di monitor sebelum diekspor",
+    "Penyimpanan & Kapasitas: Kalkulator estimasi kebutuhan ruang disk real-time sebelum render lengkap dengan peringatan dini kapasitas minim",
+    "Auto-Recovery: Detektor dan pembersih otomatis file video rusak / tidak lengkap saat disk penuh tanpa memblokir antrean berikutnya",
+    "Kualitas Gambar: Eliminasi total artefak noise titik-titik pada crossfade dissolve dengan algoritma continuous linear alpha blend",
+    "Keandalan UI: Sinkronisasi reaktif status pratinjau loop bebas status usang saat berpindah klip, preset, watermark, maupun cropping"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.3.1/BodeStudioPro_v3.3.1_Setup.exe",
-  "file_size_mb": 120.4,
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.4.0/BodeStudioPro_v3.4.0_Setup.exe",
+  "file_size_mb": 120.46,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
 }
