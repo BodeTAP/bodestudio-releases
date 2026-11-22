@@ -10,7 +10,7 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 | Release Version | Target Platform | Architecture | Installer Size | Direct Download | Release Notes |
 |---|---|---|---|---|---|
-| **v3.4.0 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 120.46 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.4.0/BodeStudioPro_v3.4.0_Setup.exe) | [Changelog v3.4.0](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.4.0) |
+| **v3.5.0 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 120.46 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.5.0/BodeStudioPro_v3.5.0_Setup.exe) | [Changelog v3.5.0](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.5.0) |
 
 ---
 
@@ -44,7 +44,14 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 ## 📜 Release Notes
 
-### v3.4.0 (Latest Release)
+### v3.5.0 (Latest Release)
+- **Multi-Scene Dynamic Assembly**: Native support for sequencing multiple video clips into a single seamlessly looped project. Full drag-and-drop / scan batch ingestion with individual sub-clip inspection, duration trim, and scene tab switching.
+- **Granular Horizontal Video Flip**: Per-video and per-scene horizontal mirroring (`hflip`) to evade copyright fingerprinting and repurpose video assets. Each individual scene clip can now be mirrored independently or inherited from parent queue items.
+- **Shorts Visual Crop Simulator with Real-Time Mirroring**: Upgraded 9:16 vertical crop preview modal with live smartphone simulator supporting flipped clips without visual offset desynchronization or black-screen rendering.
+- **Ultra-Responsive Studio Layout**: Streamlined workstation UI accommodating compact laptop and minimum window resolutions (~1100x700px) with adaptive icon-only toolbars, zero-wrap queues, and space-budgeted footer telemetry.
+- **Synchronized Monitor & Inspector Context**: Multi-scene sub-clips dynamically drive the central video monitor, transport controls, and preview generators.
+
+### v3.4.0
 - **Loop Transition Engine & Direct Cut**: Full suite of forward loop transitions including smooth linear alpha crossfade, fade through black, fade through white, wipe left/right, slide up/down, smooth left/right, and direct cut passthrough.
 - **GPU-Accelerated Instant Loop Preview**: Sub-second preview generation engine utilizing GPU acceleration and 720p draft Lanczos scaling, allowing creators to inspect seam smoothness in real time.
 - **Real-Time Storage Estimator**: Pre-render disk capacity calculator estimating output gigabytes across batch queues based on target duration, bitrate quality presets, and target resolution.

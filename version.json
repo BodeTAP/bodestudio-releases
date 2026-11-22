@@ -1,15 +1,15 @@
 {
-  "version": "3.4.0",
-  "release_date": "2026-11-20",
+  "version": "3.5.0",
+  "release_date": "2026-11-22",
   "changelog": [
-    "Transisi Looping: Pilihan lengkap efek transisi video (Crossfade linear mulus, Gelap, Kilau, Wipe, Slide, Smooth, serta Direct Cut passthrough)",
-    "Pratinjau Instan: Instant Loop Preview Engine bertenaga GPU (<1 detik) untuk menguji sambungan video di monitor sebelum diekspor",
-    "Penyimpanan & Kapasitas: Kalkulator estimasi kebutuhan ruang disk real-time sebelum render lengkap dengan peringatan dini kapasitas minim",
-    "Auto-Recovery: Detektor dan pembersih otomatis file video rusak / tidak lengkap saat disk penuh tanpa memblokir antrean berikutnya",
-    "Kualitas Gambar: Eliminasi total artefak noise titik-titik pada crossfade dissolve dengan algoritma continuous linear alpha blend",
-    "Keandalan UI: Sinkronisasi reaktif status pratinjau loop bebas status usang saat berpindah klip, preset, watermark, maupun cropping"
+    "Multi-Scene Workflow: Dukungan perakitan video berdurasi panjang dari kumpulan banyak klip babak/scene secara otomatis dalam satu folder",
+    "Horizontal Flip (Mirroring): Fitur pembalikan video horizontal cerdas per-klip maupun serentak dengan isolasi watermark logo kanal tetap tegak",
+    "Pratinjau Instan Shorts 9:16: Presisi framing crop vertikal real-time dengan simulator smartphone bebas layar hitam pada video normal maupun mirrored",
+    "Antarmuka Studio Adaptif: Optimasi tata letak responsif pada resolusi layar minimum tanpa teks bertumpuk atau terpotong",
+    "Transisi Looping Mulus: Pilihan lengkap efek transisi video (Crossfade linear mulus, Gelap, Kilau, Wipe, Slide, Smooth, serta Direct Cut passthrough)",
+    "Audit Kepatuhan Industri: Zero emojis, terminasi instan pohon proses subproses di Windows, dan proteksi memori"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.4.0/BodeStudioPro_v3.4.0_Setup.exe",
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.5.0/BodeStudioPro_v3.5.0_Setup.exe",
   "file_size_mb": 120.46,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"

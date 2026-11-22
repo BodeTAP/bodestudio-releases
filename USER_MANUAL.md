@@ -1,7 +1,7 @@
-# BodeStudio Pro 3.4.0 — Official User Manual & Quick-Start Guide
+# BodeStudio Pro 3.5.0 — Official User Manual & Quick-Start Guide
 ### *Universal YouTube Ambience Video Automation Engine*
 
-Welcome to **BodeStudio Pro 3.4.0**! This software is engineered specifically for YouTube creators, lofi/ambience music producers, and automated video agency owners looking to produce long-form broadcast-quality ambience videos (1 to 3+ hours) with maximum rendering throughput and monetization protection.
+Welcome to **BodeStudio Pro 3.5.0**! This software is engineered specifically for YouTube creators, lofi/ambience music producers, and automated video agency owners looking to produce long-form broadcast-quality ambience videos (1 to 3+ hours) with maximum rendering throughput and monetization protection.
 
 ---
 
