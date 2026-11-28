@@ -10,7 +10,7 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 | Release Version | Target Platform | Architecture | Installer Size | Direct Download | Release Notes |
 |---|---|---|---|---|---|
-| **v3.5.0 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 120.46 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.5.0/BodeStudioPro_v3.5.0_Setup.exe) | [Changelog v3.5.0](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.5.0) |
+| **v3.6.0 (Latest)** | Windows 10 / Windows 11 | x64 (64-bit) | 124.01 MB | [Download Setup Installer (.exe)](https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.6.0/BodeStudioPro_v3.6.0_Setup.exe) | [Changelog v3.6.0](https://github.com/BodeTAP/bodestudio-releases/releases/tag/v3.6.0) |
 
 ---
 
@@ -44,7 +44,13 @@ BodeStudio Pro is an agency-grade Windows desktop application engineered for You
 
 ## 📜 Release Notes
 
-### v3.5.0 (Latest Release)
+### v3.6.0 (Latest Release)
+- **Custom Audio Spectrum Overlay (Batch Render)**: Added two reactive visualizer styles (**Capsule Glow** and **Silky Wave**) with free color picker, Rainbow gradient mode, scale/opacity sliders, and interactive drag-and-drop positioning directly on the preview monitor.
+- **Auto-Persistent User Settings**: Automatically saves and restores the user's last render session preferences (channel preset, duration, resolution, quality preset, LUFS, micro-crop, loop transitions, spectrum, watermark, and YouTube upload config) across restarts.
+- **Strict 2-Pass VBR for NVIDIA NVENC**: Enforced `-rc vbr -2pass 1` on `h264_nvenc` so short video loops strictly obey Saver/Ultra-Saver bitrate budgets without file size bloat.
+- **Live Broadcast Initialization & HUD Fixes**: Resolved `max_duration` `NameError` when launching 24/7 RTMP live streams and hardened Windows `drawtext` path escaping.
+
+### v3.5.0
 - **Multi-Scene Dynamic Assembly**: Native support for sequencing multiple video clips into a single seamlessly looped project. Full drag-and-drop / scan batch ingestion with individual sub-clip inspection, duration trim, and scene tab switching.
 - **Granular Horizontal Video Flip**: Per-video and per-scene horizontal mirroring (`hflip`) to evade copyright fingerprinting and repurpose video assets. Each individual scene clip can now be mirrored independently or inherited from parent queue items.
 - **Shorts Visual Crop Simulator with Real-Time Mirroring**: Upgraded 9:16 vertical crop preview modal with live smartphone simulator supporting flipped clips without visual offset desynchronization or black-screen rendering.

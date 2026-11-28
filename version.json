@@ -1,16 +1,15 @@
 {
-  "version": "3.5.0",
-  "release_date": "2026-11-22",
+  "version": "3.6.0",
+  "release_date": "2026-11-28",
   "changelog": [
-    "Multi-Scene Workflow: Dukungan perakitan video berdurasi panjang dari kumpulan banyak klip babak/scene secara otomatis dalam satu folder",
-    "Horizontal Flip (Mirroring): Fitur pembalikan video horizontal cerdas per-klip maupun serentak dengan isolasi watermark logo kanal tetap tegak",
-    "Pratinjau Instan Shorts 9:16: Presisi framing crop vertikal real-time dengan simulator smartphone bebas layar hitam pada video normal maupun mirrored",
-    "Antarmuka Studio Adaptif: Optimasi tata letak responsif pada resolusi layar minimum tanpa teks bertumpuk atau terpotong",
-    "Transisi Looping Mulus: Pilihan lengkap efek transisi video (Crossfade linear mulus, Gelap, Kilau, Wipe, Slide, Smooth, serta Direct Cut passthrough)",
-    "Audit Kepatuhan Industri: Zero emojis, terminasi instan pohon proses subproses di Windows, dan proteksi memori"
+    "Custom Audio Spectrum (Batch Render): Dua gaya visual baru (Capsule Glow & Silky Wave) dengan warna bebas, mode Rainbow, serta posisi X/Y yang dapat digeser langsung di monitor preview",
+    "Auto-Persistensi Pengaturan: Seluruh preferensi sesi render terakhir (channel, durasi, resolusi, kualitas, spectrum, watermark) otomatis tersimpan dan dipulihkan saat aplikasi dibuka",
+    "Penegakan 2-Pass VBR NVENC: Mengunci bitrate GPU NVIDIA sesuai preset Hemat/Ultra agar ukuran file video panjang tetap efisien dan tidak membengkak",
+    "Live Broadcast Hardening: Perbaikan error inisialisasi durasi siaran langsung dan escaping path HUD FFmpeg di Windows",
+    "Multi-Scene & Horizontal Flip: Perakitan video multi-babak serta pembalikan video horizontal per-klip dengan watermark tetap tegak"
   ],
-  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.5.0/BodeStudioPro_v3.5.0_Setup.exe",
-  "file_size_mb": 120.46,
+  "download_url": "https://github.com/BodeTAP/bodestudio-releases/releases/download/v3.6.0/BodeStudioPro_v3.6.0_Setup.exe",
+  "file_size_mb": 124.01,
   "mandatory": false,
   "min_os": "Windows 10 / 11 64-bit"
 }
